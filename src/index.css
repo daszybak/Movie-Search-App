@@ -1,0 +1,19 @@
+:root {
+  --primary-color: #00d6fc80;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/star-wars-bg.jpg);
+  background-size: cover;
+}
