@@ -1,0 +1,7 @@
+#scrollable-container {
+  width: 90%;
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
+}

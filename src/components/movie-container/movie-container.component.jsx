@@ -3,6 +3,8 @@ import React, {useEffect, useRef, useState} from 'react';
 import movies from '../../api/movies';
 import MoviesList from './movie-list.component';
 
+import './movie-container.styles.scss';
+
 const MovieContainer = ({term}) => {
   console.log(term);
   const [movieList, setMovieList] = useState([]);
@@ -28,7 +30,7 @@ const MovieContainer = ({term}) => {
 
   return (
     <>
-      <section id="scrollableList">
+      <section>
         <MoviesList movies={movieList} />
       </section>
     </>
